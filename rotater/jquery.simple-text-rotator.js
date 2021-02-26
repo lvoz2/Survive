@@ -160,7 +160,7 @@ var times = 0;
 	}
       };
 	times++;
-	if(times==4) {
+	if(times > 5) {
 		setTimeout(rotate, settings.speed);
 	}
     });
