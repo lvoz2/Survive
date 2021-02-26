@@ -10,7 +10,7 @@
  * https://github.com/peachananr/simple-text-rotator
  *
  * ========================================================== */
-
+var times = 0;
 !function($){
 
   var defaults = {
