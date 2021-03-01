@@ -159,7 +159,7 @@ var times = 0;
 	  break;
 	}
 	times++;
-	if(times == 5) {
+	if(times == 4) {
 		clearInterval(restart);
 	}
       };
