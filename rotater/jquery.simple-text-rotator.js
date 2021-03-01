@@ -158,11 +158,11 @@ var times = 0;
 	    });
 	  break;
 	}
-      };
 	times++;
 	if(times == 5) {
 		restart.clearInterval();
 	}
+      };
 	restart = setInterval(rotate, settings.speed);
     });
   }
