@@ -160,10 +160,10 @@ var times = 0;
 	}
       };
 	times++;
-	restart = setInterval(rotate, settings.speed);
 	if(times == 5) {
 		restart.clearInterval();
 	}
+	restart = setInterval(rotate, settings.speed);
     });
   }
   
